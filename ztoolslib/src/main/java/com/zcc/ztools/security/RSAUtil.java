@@ -10,7 +10,6 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.security.PrivateKey;
 import java.security.PublicKey;
-import java.security.Security;
 import java.security.Signature;
 import java.security.SignatureException;
 import java.security.spec.InvalidKeySpecException;
@@ -47,11 +46,7 @@ public class RSAUtil {
 
     static String sign(String privateKey, String dataString) {
         PrivateKey key = genneratePrivateKey(privateKey);
-        return sign(key,dataString);
-    }
-
-    private String sign(PrivateKey privateKey, String data){
-        Signature signature = Signature.getInstance(SIGNATURE_ALGORITHM);
+        return sign(key, dataString);
     }
 
     private static PrivateKey genneratePrivateKey(String base64PrivateKey) {
@@ -124,5 +119,17 @@ public class RSAUtil {
             Log.e(TAG, "Signature exception.");
         }
         return false;
+    }
+
+    private static String sign(PrivateKey privateKey, String data) {
+        try {
+            Signature signature = Signature.getInstance(SIGNATURE_ALGORITHM);
+            signature.initSign(privateKey);
+            signature.update(data.getBytes());
+            return new String(Base64.encode(signature.sign(), Base64.DEFAULT));
+        } catch (NoSuchAlgorithmException | InvalidKeyException | SignatureException e) {
+            e.printStackTrace();
+            return "";
+        }
     }
 }

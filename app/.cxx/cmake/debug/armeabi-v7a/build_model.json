@@ -1,0 +1,75 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/cc/Desktop/programing/ZTools",
+      "sdkFolder": "/Users/cc/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/cc/Desktop/programing/ZTools/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/Users/cc/Desktop/programing/ZTools/app",
+      "makeFile": "/Users/cc/Desktop/programing/ZTools/app/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/cc/Desktop/programing/ZTools/.cxx",
+      "cxxFolder": "/Users/cc/Desktop/programing/ZTools/app/.cxx",
+      "ndkFolder": "/Users/cc/Library/Android/sdk/ndk-bundle",
+      "ndkVersion": "16.1.4479499",
+      "ndkSupportedAbiList": [
+        "ARMEABI",
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "MIPS",
+        "MIPS64",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      "-fexceptions"
+    ],
+    "variantName": "debug",
+    "soFolder": "/Users/cc/Desktop/programing/ZTools/app/build/intermediates/cmake/debug/lib",
+    "objFolder": "/Users/cc/Desktop/programing/ZTools/app/build/intermediates/cmake/debug/obj",
+    "jsonFolder": "/Users/cc/Desktop/programing/ZTools/app/.cxx/cmake/debug",
+    "gradleBuildOutputFolder": "/Users/cc/Desktop/programing/ZTools/app/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 19,
+  "cxxBuildFolder": "/Users/cc/Desktop/programing/ZTools/app/.cxx/cmake/debug/armeabi-v7a",
+  "jsonFile": "/Users/cc/Desktop/programing/ZTools/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/cc/Desktop/programing/ZTools/app/.cxx/cxx/debug/armeabi-v7a",
+  "objFolder": "/Users/cc/Desktop/programing/ZTools/app/build/intermediates/cmake/debug/obj/armeabi-v7a",
+  "buildCommandFile": "/Users/cc/Desktop/programing/ZTools/app/.cxx/cmake/debug/armeabi-v7a/build_command.txt",
+  "buildOutputFile": "/Users/cc/Desktop/programing/ZTools/app/.cxx/cmake/debug/armeabi-v7a/build_output.txt",
+  "modelOutputFile": "/Users/cc/Desktop/programing/ZTools/app/.cxx/cmake/debug/armeabi-v7a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/cc/Desktop/programing/ZTools/app/.cxx/cxx/debug/armeabi-v7a/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/cc/Desktop/programing/ZTools/app/.cxx/cxx/debug/armeabi-v7a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/cc/Desktop/programing/ZTools/app/.cxx/cxx/debug/armeabi-v7a/build_generation_state.json",
+    "cacheKeyFile": "/Users/cc/Desktop/programing/ZTools/app/.cxx/cxx/debug/armeabi-v7a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/cc/Desktop/programing/ZTools/app/.cxx/cxx/debug/armeabi-v7a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/cc/Desktop/programing/ZTools/app/.cxx/cxx/debug/armeabi-v7a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/cc/Desktop/programing/ZTools/app/.cxx/cxx/debug/armeabi-v7a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/cc/Desktop/programing/ZTools/app/.cxx/cmake/debug/armeabi-v7a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/cc/Desktop/programing/ZTools/app/.cxx/cmake/debug/armeabi-v7a/compile_commands.json"
+}

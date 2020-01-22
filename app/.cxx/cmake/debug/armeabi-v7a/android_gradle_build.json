@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/cc/Desktop/programing/ZTools/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/cc/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/cc/Desktop/programing/ZTools/app/.cxx/cmake/debug/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/cc/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/cc/Desktop/programing/ZTools/app/.cxx/cmake/debug/armeabi-v7a --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/cc/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/cc/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/cc/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/cc/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/cc/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/cc/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/cc/Desktop/programing/ZTools/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/cc/Desktop/programing/ZTools/app/.cxx/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/cc/Desktop/programing/ZTools/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so",
+			"toolchain" : "10948063612955983195"
+		}
+	},
+	"toolchains" : 
+	{
+		"10948063612955983195" : 
+		{
+			"cCompilerExecutable" : "/Users/cc/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/cc/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
